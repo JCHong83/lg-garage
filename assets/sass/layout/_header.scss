@@ -101,6 +101,9 @@
 					top: 0;
 				}
 			}
+			.head-info {
+				display: none;
+			}
 		}
 
 		@include breakpoint('<=xsmall') {
@@ -133,6 +136,9 @@
 						}
 					}
 				}
+			}
+			.head-info {
+				display: none;
 			}
 		}
 	}

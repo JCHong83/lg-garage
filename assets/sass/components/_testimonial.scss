@@ -14,3 +14,27 @@
 .card .fa-quote-right {
   float: right;
 }
+
+@include breakpoint('<=medium') {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 47%;
+  }
+}
+
+@include breakpoint('<=small') {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+@include breakpoint('<=xsmall') {
+  
+}

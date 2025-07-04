@@ -3490,6 +3490,22 @@ table.alt tbody tr td {
   float: right;
 }
 
+@media screen and (max-width: 980px) {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 47%;
+  }
+}
+@media screen and (max-width: 736px) {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 100%;
+  }
+}
 /* Header */
 #header {
   display: -moz-flex;
@@ -3599,6 +3615,9 @@ table.alt tbody tr td {
     font-size: 1em;
     top: 0;
   }
+  #header .head-info {
+    display: none;
+  }
 }
 @media screen and (max-width: 480px) {
   #header {
@@ -3624,6 +3643,9 @@ table.alt tbody tr td {
   }
   #header > nav ul li a:hover {
     background-color: transparent;
+  }
+  #header .head-info {
+    display: none;
   }
 }
 
